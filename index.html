@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nutri HEGN - Sistema de Gestión Clínica</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="login-container">
+            <div class="logo">
+                <h1>Nutri GaNa</h1>
+                <p>Sistema Nutricional</p>
+            </div>
+            <form id="loginForm">
+                <div class="form-group">
+                    <label for="nombreNutriologo">Nombre del Nutriólogo:</label>
+                    <input type="text" id="nombreNutriologo" placeholder="Ej: Nutriólogo: Hugo Garcia" required autocomplete="off">
+                </div>
+                <button type="submit" class="btn btn-primary">Ingresar</button>
+            </form>
+            <div id="errorMessage" class="error-message"></div>
+        </div>
+    </div>
+    <script type="module" src="js/app.js"></script>
+</body>
+</html>
